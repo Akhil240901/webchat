@@ -1,0 +1,24 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "using websocket make chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akhil240901/webchat.git"
+  },
+  "author": "Akhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akhil240901/webchat/issues"
+  },
+  "homepage": "https://github.com/Akhil240901/webchat#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
